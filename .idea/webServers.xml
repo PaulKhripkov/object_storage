@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a26be55-d7e9-4715-ad44-539627a43608" name="centos8dev">
+        <fileTransfer rootFolder="/home/paul/go/src/github.com/PavelKhripkov/object_storage" accessType="SFTP" host="127.0.0.1" port="10022" sshConfigId="6ff9a43e-d361-457b-a98d-354474e4b911" sshConfig="paul@127.0.0.1:10022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
